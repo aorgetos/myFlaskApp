@@ -1,0 +1,48 @@
+/*
+ * User defined styles
+ * 
+ */ 
+
+/* flashes styling */
+
+.flashes ul {
+  margin: 0 0;
+    
+  list-style-type: none;
+  list-style: none;
+}
+
+article.flashes {
+  margin-bottom: 1em;
+}
+
+
+.page-500 {
+    text-align: center;
+}
+.page-500 .number {
+    color: #ec8c8c;
+    display: inline-block;
+    font-size: 128px;
+    font-weight: 300;
+    letter-spacing: -10px;
+    line-height: 128px;
+    text-align: right;
+}
+.page-500 .details {
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.page-500-full-page {
+    background-color: #fafafa !important;
+    overflow-x: hidden;
+    padding: 0px;
+}
+.page-500-full-page .details input {
+    background-color: #ffffff;
+}
+.page-500-full-page .page-500 {
+    margin-top: 100px;
+}
